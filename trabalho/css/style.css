@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ body{
+    background-image: linear-gradient(white,grey,white); /*usei para mudar a cor de funto da pagina*/
+}
+.header{
+    background: blanchedalmond;
+    color: aliceblue;
+}
+.footer{
+    background: gray;
+   /* bottom: 0;*/
+}
+.header,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  12vh;
+  /*  position: absolute;
+    width: 100%;*/
+    background: linear-gradient(red,pink);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    height: 70vh;
+    background: fixed;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.p1{
+    text-align: center;
+    background: blanchedalmond;
+    
+    
+    
+    
+}
+
+@media(max-width:375px){ 
+
+    img{
+        position: static;
+        width: 40%;
+        height: 40%;
+        padding-top: 10%;
+    }
+    .zoom{
+        overflow: hidden;
+    }
+
+    #container{ 
+
+        flex-direction: column; 
+        
+
+    } 
+
+} 
