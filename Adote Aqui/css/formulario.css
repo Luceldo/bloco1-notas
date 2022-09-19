@@ -1,0 +1,109 @@
+body{
+    
+    background-image: linear-gradient(pink,purple);
+    
+}
+.menu{
+    padding: 0;
+    background-color: blueviolet;
+    list-style: none;
+    text-align: right;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    background-color: antiquewhite;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    
+}
+ 
+.menu a:hover{
+    background-color: blue;
+    color: white;
+
+    }
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid #999;
+
+}
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+button{
+    background-color: white;
+    border: 1px solid rgb(21,4,98);
+    color:rgb(21,4,98) ;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+
+}
+button:hover{
+    background-color: rgb(21,4,98);
+    color: white;
+    cursor:pointer
+}
+input:focus, textarea:focus{
+    border-color: rgb(21,4,98);
+
+}
+
+header{
+    background: blue,30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    left: auto;
+    font-size: 40px;
+    float: left ;
+    font-family: fantasy;
+
+    }
+
+
+
+
+
+
+
+
+@media(max-width:375px){ 
+
+    
+    form{
+        width: 100%;
+    } 
+
+} 
+
+
+@media screen and (max-width: 375px) {
+
+    form{
+        width: 100%;
+    }
+}
+
+
+
+

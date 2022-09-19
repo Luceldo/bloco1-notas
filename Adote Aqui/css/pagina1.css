@@ -1,0 +1,161 @@
+html, body { 
+
+    min-height: 100%; 
+
+} 
+
+body{
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(pink,green);
+    background-size: 100%;
+}
+
+body { 
+
+ 
+ 
+
+    position: relative; 
+
+    padding: 0; 
+
+    margin: 0; 
+
+} 
+
+          
+
+ul{ 
+
+    list-style-type: none; 
+
+    margin: 0px; 
+
+    padding: 0px; 
+
+} 
+
+ 
+ 
+
+#galeria{ 
+
+    display: flex; 
+
+    justify-content: space-between; 
+
+} 
+
+ 
+ 
+
+.menu{                                
+    padding: 0;
+    background-color: blueviolet;
+    list-style: none;
+    text-align: right;
+}
+
+
+a:hover{ 
+
+    color: white; 
+
+    background-position: right ; 
+
+} 
+
+#container{ 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center; 
+
+    float: center;
+    width: 100%;
+
+} 
+
+.bloco{ 
+
+    background: linear-gradient(to left,pink,purple); 
+
+    width: 40%; 
+
+    margin: 5px; 
+
+    border-radius: 10px; 
+
+    min-height: 100px; 
+
+    box-shadow: 0px 5px 2 px rgb(0, 0, 0.5) 
+
+} 
+
+.texto{ 
+
+    color: black; 
+
+    padding:  8px; 
+
+    font-family: monospace; 
+
+} 
+.p1{
+    background:red;
+    border: lightcyan 100vh;
+    display:flex;
+    float: inline-end;
+}
+
+ 
+ 
+
+/*responsividade*/ 
+
+@media(max-width:375px){ 
+
+    img{
+        position: 1%;
+        width: 1%;
+        height: 1%;
+        padding-top: 1%;
+    }
+    
+    .zoom{
+        overflow: hidden;
+    }
+
+    .zoom:hover img{
+        display: none;
+
+    }
+
+    #container{ 
+
+        flex-direction: column; 
+
+
+    } 
+
+} 
+
+@media(max-width:550%){ 
+
+    #container{ 
+
+        flex-wrap: wrap; 
+
+    } 
+
+ 
+ 
+
+} 
+
+
+ 
